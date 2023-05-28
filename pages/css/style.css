@@ -265,12 +265,24 @@ h3 {
 
 /* media */
 
-@media (max-width: 600px) {
-    nav{
-        background-color: antiquewhite;
+@media (max-width: 767px) {
+    .barra_de_navegacion{
+        background-color: #bdb5aa;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
 
     }
-
+    .barra_de_navegacion li a{
+        color: black;
+        border-radius: 2rem;
+        text-decoration: none;
+        text-align: center;
+        background-color:#eae2d7 ;
+        opacity: .5;   
+     }
 }
 
 
