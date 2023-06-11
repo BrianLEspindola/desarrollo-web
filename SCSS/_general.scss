@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Serif Display', serif;
+  }
+  
+  $color-principal: #eae2d7;
+  $color-secundario: #bdb5aa;
+  $color-terceario: #737373;
+  $color-fuente-1: #545454;
+  $fuente-titulo: 'Playfair Display';
+
+  /* General */
+  
+  div {
+
+    .welcomeHoney {
+    background-color: $color-terceario;
+    text-align: center;
+    font-size: 0.8rem;
+    }
+  }
+  
+  .logoH {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 250px;
+    height: 100px;
+  }
+  
+  header {
+    background-color: $color-principal;
+  }
+  
+  nav {
+    margin: 10px 0;
+  }
+  
+  .barra_de_navegacion {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  
+    li {
+      a {
+        
+        color: black;
+        border-radius: 1rem;
+        text-decoration: none;
+        background-color: $color-secundario;
+        opacity: 0.5;
+        
+        
+  
+        &:hover {
+          opacity: 1;
+         
+        }
+      }
+    }
+  }
+  
+  body {
+    background-color: $color-principal;
+  }
+  
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    color: $color-fuente-1;
+  }
+  
+  footer {
+    background-color: $color-terceario;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+  
+    a {
+      color: black;
+      text-decoration: none;
+      border: 1px solid black;
+    }
+  }
+.grid-layout {
+
+    display: grid;
+    grid-template-columns: 58% 40%;
+    justify-content: space-around;
+
+    background-color: #eae2d7;
+    
+    
+}
+
+.caja{
+    
+    background-color: #eae2d7;
+    text-align: center;
+}
+
+
+
+.honey {
+   img {
+    width: 350px;
+  }
+
+   h4{
+    display: inline;
+    background-color:#bdb5aa;
+    border-radius: 1rem;
+    }
+
+}
+
