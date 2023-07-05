@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* Tablets en horizonal y escritorios normales */
+/* Móviles en horizontal o tablets en vertical */
+@media (max-width: 767px) {
+  .barra_de_navegacion {
+    background-color: #bdb5aa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+  }
+  .barra_de_navegacion li a {
+    color: black;
+    border-radius: 2rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: #eae2d7;
+    opacity: 0.5;
+  }
+}
+/* Móviles en vertical */
+@media (max-width: 480px) {
+  section .grid-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=mq.css.map */

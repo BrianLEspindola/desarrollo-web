@@ -1,6 +1,7 @@
 .grid-padrote {
     height: 100vh;
     display: grid;
+    
 }
 
 .c {
@@ -78,4 +79,50 @@ h3 {
     padding: 3rem;
 }
 
+
+.grid-padrote-servicio{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns:auto auto;
+    
+
+
+}
+
+.box-header{
+    grid-column: 1/3;
+
+}
+
+.box-titulo{
+    grid-column: 1/3;
+    
+}
+
+.box-main{
+    grid-column: 1/1;
+}
+
+.box-redes{
+    grid-column: 1/3;
+}
+
+.box-footer{
+    grid-column: 1/3;
+}
+
+.flexSer{
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.flexin{
+    border: 1px black;
+    padding: 20px;
+
+
+}
 

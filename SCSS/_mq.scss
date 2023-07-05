@@ -37,7 +37,20 @@
 
     }
 
+    .flexSer{
     
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .flexin{
+        border: 1px black;
+        padding: 20px;
+    
+    
+    }
 
 }
 

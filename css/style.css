@@ -90,6 +90,15 @@ footer a {
   border-radius: 1rem;
 }
 
+.img2 {
+  width: 300px;
+}
+
+.img1 {
+  width: 300px;
+  height: 200px;
+}
+
 .grid-padrote {
   height: 100vh;
   display: grid;
@@ -168,6 +177,43 @@ h3 {
   padding: 3rem;
 }
 
+.grid-padrote-servicio {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: auto auto;
+}
+
+.box-header {
+  grid-column: 1/3;
+}
+
+.box-titulo {
+  grid-column: 1/3;
+}
+
+.box-main {
+  grid-column: 1/1;
+}
+
+.box-redes {
+  grid-column: 1/3;
+}
+
+.box-footer {
+  grid-column: 1/3;
+}
+
+.flexSer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexin {
+  border: 1px black;
+  padding: 20px;
+}
+
 @media (max-width: 767px) {
   .barra_de_navegacion {
     background-color: #bdb5aa;
@@ -197,6 +243,16 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .flexSer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .flexin {
+    border: 1px black;
+    padding: 20px;
   }
 }
 .redes {
